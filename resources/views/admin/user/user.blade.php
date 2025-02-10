@@ -1,9 +1,9 @@
 @extends('layouts.master')
 
-@section('title', 'User List')
+@section('title', ' All User List')
 
 @section('content')
-
+ 
 <div class="container mt-4">
     <!-- Check for success session flash message -->
     @if(session('success'))
